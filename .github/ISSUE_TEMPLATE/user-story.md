@@ -1,10 +1,10 @@
 ---
 name: agile-final-project-template
 about: agile-final-project-template
-title: ''
-labels: ''
-assignees: ''
-
+title: 'Create a Product in a Catalog'
+labels: 'enhancement'
+assignees: 'dorago'
+estimate: 3
 ---
 
 **As a** user
@@ -18,7 +18,7 @@ assignees: ''
  ### Acceptance Criteria  
    
  ```gherkin
- Given the catalog is preperd
+ Given the catalog is ready and working as expected
  When the user have an option to create a product
  Then the product will be creted in the catalog
  ```

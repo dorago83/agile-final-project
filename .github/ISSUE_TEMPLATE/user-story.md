@@ -18,7 +18,7 @@ estimate: 3
  ### Acceptance Criteria  
    
  ```gherkin
- Given the catalog is ready and working as expected
- When the user have an option to create a product
- Then the product will be creted in the catalog
+ Given the catalog is ready and authenticated
+ When I fill in the product details
+ Then the product "Test Phone" should be created in the catalog
  ```
